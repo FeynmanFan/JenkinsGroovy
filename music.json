@@ -1,0 +1,45 @@
+[
+   {
+      "name":"Doctor Radio",
+      "albums":[
+         {
+            "title":"The Queen of Lambs",
+            "songs":[
+               {
+                  "title":"Onion",
+                  "length":"5:15"
+               },
+               {
+                  "title":"Good Evening, Mr Sparrow",
+                  "length":"4:41"
+               },
+               {
+                  "title":"Slowly He Turned",
+                  "length":"4:27"
+               },
+               {
+                  "title":"Will",
+                  "length":"3:13"
+               },
+               {
+                  "title":"Vauxhall Rose",
+                  "length":"5:01"
+               },
+               {
+                  "title":"Mutex",
+                  "length":"4:47"
+               },
+               {
+                  "title":"Betray the Spirit",
+                  "length":"4:50"
+               },
+               {
+                  "title":"Delimiter",
+                  "length":"5:20"
+               }
+            ],
+            "description":"\n\tThe Queen of Lambs is the eighth studio album by Belgian rock band Doctor Radio, produced by Harry Stanpoor."
+         }
+      ]
+   }
+]

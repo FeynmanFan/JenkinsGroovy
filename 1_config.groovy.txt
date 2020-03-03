@@ -1,0 +1,12 @@
+import jenkins.model.*;
+
+println "///////////////////////////////////////////////////////////////////////////"
+println "Init Hook: Configure executors, system message"
+println "///////////////////////////////////////////////////////////////////////////"
+
+def instance = Jenkins.instance
+instance.setDisableRememberMe(true)
+instance.setNumExecutors(10)
+instance.setSystemMessage('Jenkins Server - Automating Jenkins with Groovy')
+instance.setRawBuildsDir()
+instance.save()

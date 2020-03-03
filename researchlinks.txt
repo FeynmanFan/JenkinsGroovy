@@ -1,0 +1,4 @@
+https://www.eficode.com/blog/jenkins-groovy-tutorial
+https://www.guru99.com/jenkins-pipeline-tutorial.html
+https://jenkins.io/doc/book/pipeline/getting-started/#defining-a-pipeline-in-scm
+https://dzone.com/articles/continuous-integration-ci-for-net-core-projects-ne
