@@ -3,6 +3,7 @@ node {
     	echo 'Gathering code from version control'
     }
     stage('Build') {
+    	sh 'dotnet --version'
         echo 'Building....'
         echo 'Building New Feature'
     }
