@@ -1,0 +1,41 @@
+.vs
+ConsoleApp1
+DesignTimeBuild
+	.dtbcache	223498
+v16
+	.suo	23040
+Server
+sqlite3
+	db.lock	0
+	storage.ide	679936
+	storage.ide-shm	32768
+	storage.ide-wal	53592
+bin
+Debug
+netcoreapp3.1
+	ConsoleApp1.deps.json	425
+	ConsoleApp1.dll	4608
+	ConsoleApp1.exe	169984
+	ConsoleApp1.pdb	672
+	ConsoleApp1.runtimeconfig.dev.json	236
+	ConsoleApp1.runtimeconfig.json	154
+	ConsoleApp1.csproj	178
+	ConsoleApp1.sln	1126
+obj
+	ConsoleApp1.csproj.nuget.cache	149
+	ConsoleApp1.csproj.nuget.dgspec.json	1993
+	ConsoleApp1.csproj.nuget.g.props	1166
+	ConsoleApp1.csproj.nuget.g.targets	294
+Debug
+netcoreapp3.1
+	ConsoleApp1.AssemblyInfo.cs	1006
+	ConsoleApp1.AssemblyInfoInputs.cache	42
+	ConsoleApp1.assets.cache	192
+	ConsoleApp1.csproj.FileListAbsolute.txt	924
+	ConsoleApp1.csprojAssemblyReference.cache	104204
+	ConsoleApp1.dll	4608
+	ConsoleApp1.exe	169984
+	ConsoleApp1.pdb	672
+	project.assets.json	2020
+	Program.cs	195
+	releasenotes.txt	0

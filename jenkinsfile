@@ -2,15 +2,14 @@ node {
     stage('SCM'){
     	checkout([$class: 'GitSCM', branches: [[name: '*/${BRANCH}']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/FeynmanFan/JenkinsGroovy']]])
     }	
-    stage('Get directory'){
-    	println("********" + pwd() + "********");
     }
     stage('Build') {  
     	try{
-    	sh 'dotnet --version'
-    	sh "dotnet build ConsoleApp1"
-        echo 'Building....'
-        echo 'Building New Feature'
+		sh 'dotnet --version'
+		sh "dotnet build ConsoleApp1"
+		echo 'Building....'
+		echo 'Building New Feature'
+		releasenotes
         }catch(ex){
         	echo 'Something went wrong'
         	echo ex.toString();
