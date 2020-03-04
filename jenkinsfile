@@ -1,6 +1,6 @@
 node {
     stage('SCM'){
-    	checkout scm
+    	checkout([$class: 'GitSCM', branches: [[name: '*/${BRANCH}']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/FeynmanFan/JenkinsGroovy']]])
     }	
     stage('Build') {  
     	sh 'dotnet --version'
