@@ -1,10 +1,7 @@
 node {
-    stage('Build') {
-    
-    	echo pwd()
-    
+    stage('Build') {  
     	sh 'dotnet --version'
-    	sh(script: "dotnet build ConsoleApp1/ConsoleApp1.sln", returnStdout: true)
+    	sh(script: "dotnet build ../HelloPipeline@script/ConsoleApp1/ConsoleApp1.sln", returnStdout: true)
         echo 'Building....'
         echo 'Building New Feature'
     }
