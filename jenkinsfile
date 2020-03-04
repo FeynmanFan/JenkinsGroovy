@@ -1,6 +1,6 @@
 node {
     stage('SCM'){
-    	checkout scm.
+    	checkout scm
     }	
     stage('Build') {  
     	sh 'dotnet --version'
