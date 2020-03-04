@@ -4,7 +4,7 @@ node {
     }	
     stage('Build') {  
     	sh 'dotnet --version'
-    	sh(script: "dotnet build ConsoleApp1", returnStdout: true)
+    	sh "dotnet build ConsoleApp1"
         echo 'Building....'
         echo 'Building New Feature'
     }
