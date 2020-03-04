@@ -1,6 +1,7 @@
 node {
     stage('SCM') {
     	echo 'Gathering code from version control'
+    	git branch: 'master', url: params.git_repo
     }
     stage('Build') {
     	sh 'dotnet --version'
