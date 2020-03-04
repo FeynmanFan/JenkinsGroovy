@@ -1,4 +1,7 @@
 node {
+    stage('SCM'){
+    	git
+    }	
     stage('Build') {  
     	sh 'dotnet --version'
     	sh(script: "dotnet build ../HelloPipeline@script/ConsoleApp1/ConsoleApp1.sln", returnStdout: true)
