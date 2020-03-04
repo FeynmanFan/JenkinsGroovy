@@ -3,7 +3,7 @@ node {
     	checkout([$class: 'GitSCM', branches: [[name: '*/${BRANCH}']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/FeynmanFan/JenkinsGroovy']]])
     }	
     stage('Get directory'){
-    	println(new File(".").getAbsoluteFile().getParent());
+    	println("********" + pwd() + "********");
     }
     stage('Build') {  
     	try{
