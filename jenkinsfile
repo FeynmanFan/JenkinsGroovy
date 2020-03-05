@@ -1,1 +1,3 @@
+@Library('genericbuild') _
+
 genericbuild()
