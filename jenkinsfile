@@ -1,3 +1,11 @@
-@Library('genericbuild') _
-
-genericbuild(target:"ConsoleApp1")
+node {
+    stage('Build') {
+        echo 'Building....'
+    }
+    stage('Test') {
+        echo 'Testing....'
+    }
+    stage('Deploy') {
+        echo 'Deploying....'
+    }
+}
