@@ -1,0 +1,11 @@
+C:\code\JenkinsGroovy\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\code\JenkinsGroovy\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\code\JenkinsGroovy\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\code\JenkinsGroovy\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\code\JenkinsGroovy\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\code\JenkinsGroovy\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\code\JenkinsGroovy\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\code\JenkinsGroovy\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\code\JenkinsGroovy\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\code\JenkinsGroovy\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\code\JenkinsGroovy\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
