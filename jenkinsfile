@@ -1,3 +1,6 @@
+import groovy.io.FileType;
+import java.io.File;
+
 node {
     stage('SCM') {
     	echo 'Gathering code from version control'
@@ -9,6 +12,12 @@ node {
     	sh 'dotnet --version'
     	sh "dotnet build ConsoleApp1"
         echo 'Building New Feature'
+        
+            def dir = new File(pwd());
+	    
+	    echo "Preparing releasenotes.txt at " + dir;
+
+        
 	releasenotes
         }catch(ex){
         	echo 'Something went wrong'
