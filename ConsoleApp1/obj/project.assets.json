@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\JenkinsGroovy\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\code\\JenkinsGroovy\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Code\\JenkinsGroovy\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\code\\JenkinsGroovy\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\JenkinsGroovy\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\code\\JenkinsGroovy\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
