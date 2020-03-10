@@ -1,5 +1,3 @@
-@Library('releasenotes');
-
 import groovy.io.FileType;
 import java.io.File;
 
@@ -24,7 +22,7 @@ node {
         	// cleanup
         }
         
-        releasenotes.call()
+        releasenotes()
     }
     stage('Test') {
         echo 'Testing....'
