@@ -11,6 +11,7 @@ node {
         echo 'Building....'
     	sh 'dotnet --version'
     	sh "dotnet build ConsoleApp1"
+    	releasenotes
         echo 'Building New Feature'
         
             def dir = new File(pwd());
@@ -18,7 +19,7 @@ node {
 	    echo "Preparing releasenotes.txt at " + dir;
 
         
-	releasenotes
+	
         }catch(ex){
         	echo 'Something went wrong'
         	echo ex.toString();
