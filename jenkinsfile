@@ -1,3 +1,5 @@
+@Library('releasenotes');
+
 import groovy.io.FileType;
 import java.io.File;
 
