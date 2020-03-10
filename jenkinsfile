@@ -4,10 +4,17 @@ node {
 	git branch: '${branch}', url: 'https://github.com/FeynmanFan/JenkinsGroovy.git'
     }
     stage('Build') {
+	try{
         echo 'Building....'
-	sh 'dotnet --version'
-	sh 'dotnet build ConsoleApp1'
-	echo 'Building new feature'
+    	sh 'dotnet --version'
+    	sh "dotnet build ConsoleApp1"
+        echo 'Building New Feature'
+        }catch(ex){
+        	echo 'Something went wrong'
+        }
+        finally{
+        	// cleanup
+        }
     }
     stage('Test') {
         echo 'Testing....'
