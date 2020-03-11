@@ -1,6 +1,3 @@
-import groovy.io.FileType;
-import java.io.File;
-
 node {
     stage('SCM') {
     	echo 'Gathering code from version control'
@@ -8,11 +5,11 @@ node {
     }
     stage('Build') {
 	try{
-        echo 'Building....'
-    	sh 'dotnet --version'
-    	sh "dotnet build ConsoleApp1"
-
-        echo 'Building New Feature'
+	        echo 'Building....'
+	    	sh 'dotnet --version'
+    		sh "dotnet build ConsoleApp1"
+	        echo 'Building New Feature'
+		releasenotes()
         }catch(ex){
         	echo 'Something went wrong'
         	echo ex.toString();
@@ -21,8 +18,6 @@ node {
         finally{
         	// cleanup
         }
-        
-        releasenotes()
     }
     stage('Test') {
         echo 'Testing....'
