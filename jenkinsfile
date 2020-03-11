@@ -1,1 +1,1 @@
-genericbuild()
+genericbuild(target:"ConsoleApp1")
