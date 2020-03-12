@@ -1,12 +1,10 @@
 node {
     stage('SCM') {
     	echo 'Gathering code from version control'
-	checkout([$class: 'GitSCM', branches: [[name: '${branch}']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/FeynmanFan/JenkinsGroovy']]])
+	checkout scm
     }
     stage('Build') {
         echo 'Building....'
-	sh 'Dotnet version'
-	sh 'dotnet build ConsoleApp1'
         echo 'Building New Feature'
     }
     stage('Test') {
