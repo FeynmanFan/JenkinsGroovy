@@ -9,7 +9,7 @@ node {
 			withDotNet(sdk: "sdk6"){
 				sh 'dotnet build ConsoleApp1'
 				echo 'Building new feature'
-				releasenotes(changes: "false");
+				releasenotes(changes: "true");
 			}
 		}catch(ex){
 			echo 'Something went wrong'
